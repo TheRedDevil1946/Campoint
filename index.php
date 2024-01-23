@@ -15,7 +15,7 @@
     </form>
     <h3>Im Telefonbuch suchen</h3>
     <form action="<?=$_SERVER['PHP_SELF'];?>" method="POST">
-      <input type="text" name="searchTerm" required>
+      <input type="number" name="searchTerm" required>
       <button type="submit">Suchen</button>
     </form>
   </body>
